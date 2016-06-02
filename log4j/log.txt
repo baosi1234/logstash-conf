@@ -1,0 +1,12 @@
+2016-06-02 15:16:50,330 [ActiveMQ Session Task-2701] ERROR com.lehecai.engine.thread.scanner.plan.PlanNonRealTimeMessageListener - 触发方案(1606020021002987655)的无法开奖状态回收
+2016-06-02 15:36:27,952 [贴吧竞彩足球胜平负虚拟拆票处理线程] ERROR c.lehecai.engine.thread.ticket.impl.splitter.CommonTicketVirtualSplitterRunnable - [贴吧虚拟竞彩足球胜平负]第<20150819>期,方案(id:1508210001000004641)虚拟拆票出错
+net.sf.json.JSONException: null object
+        at net.sf.json.JSONObject.verifyIsNull(JSONObject.java:2897) ~[json-lib-2.3.jar:na]
+        at net.sf.json.JSONObject.getString(JSONObject.java:2240) ~[json-lib-2.3.jar:na]
+        at com.lehecai.engine.thread.ticket.impl.splitter.CommonTicketVirtualSplitterRunnable.convertExtContent(CommonTicketVirtualSplitterRunnable.java:229) ~[CommonTicketVirtualSplitterRunnable.class:na]
+        at com.lehecai.engine.thread.ticket.impl.splitter.CommonTicketVirtualSplitterRunnable.updateTicketExt(CommonTicketVirtualSplitterRunnable.java:255) ~[CommonTicketVirtualSplitterRunnable.class:na]
+        at com.lehecai.engine.thread.ticket.impl.splitter.CommonTicketVirtualSplitterRunnable.execute(CommonTicketVirtualSplitterRunnable.java:131) ~[CommonTicketVirtualSplitterRunnable.class:na]
+        at com.lehecai.engine.thread.ticket.AbstractTicketSplitterRunnable.executeRun(AbstractTicketSplitterRunnable.java:42) [AbstractTicketSplitterRunnable.class:na]
+        at com.lehecai.core.thread.AbstractThreadRunnable.run(AbstractThreadRunnable.java:74) [pcore-1.0-SNAPSHOT-qa.jar:na]
+        at java.lang.Thread.run(Thread.java:745) [na:1.7.0_60]
+2016-06-02 15:36:28,264 [吉林快3彩期守护线程] ERROR com.lehecai.engine.thread.phase.impl.phase.CommonPhaseHandler - 未查找到([name: 吉林快3, value: 560])有效的当前期, 切换到(160516079)的下一期继续查找

@@ -1,0 +1,5 @@
+Jun  7 10:05:05 test83 sendmail[19376]: u57254gB019375: to=<root@x.lehecai.com>, ctladdr=<root@x.lehecai.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=30907, dsn=2.0.0, stat=Sent
+Jun  7 10:30:25 test83 sshd[6228]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun  7 10:46:01 test83 crond[16928]: (root) CMD (/usr/local/php/bin/php -c /usr/local/php/etc/php.ini /opt/deploy/qa-plot-jclq/daemon/scripts/game/3rd_recharge.php 2>&1 >/tmp/game_3rd_recharge.log)
+Jun  7 10:05:04 test83 fuchen[18672]: Exception|spMySQLException not caught: code='1',msg='数据库连接失败'. Thrown from '/opt/deploy/qa-plot-jclq/spframework/source/datadrv/mysql/mysql.class.php':554|-|0
+Jun  7 10:05:05 test83 sendmail[19376]: u57254gB019375: to=<root@x.lehecai.com>, ctladdr=<root@x.lehecai.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=30907, dsn=2.0.0, stat=Sent
